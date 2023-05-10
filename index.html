@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Spirits Menu</title>
+  </head>
+  <body>
+    <h1>Spirits Menu</h1>
+    <div id="spirits-menu"></div>
+
+    <script>
+      fetch('https://docs.atlaslanding.com/spirits/spirits.json')
+        .then(response => response.json())
+        .then(data => {
+          const spiritsMenu = document.getElementById('spirits-menu');
+          const spirits = data.spirits;
+          let html = '';
+
+          for (const spirit of spirits) {
+            html += `<h2>${spirit.title}</h2>
+            <ul>`;
+            for (const drink of spirit.drinks) {
+              html += `<li>${drink.name} - $${drink.price}</li>`;
+            }
+            html += `</ul>`;
+          }
+
+          spiritsMenu.innerHTML = html;
+        });
+    </script>
+  </body>
+</html>
