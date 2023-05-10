@@ -1,0 +1,144 @@
+{
+    "spirits": {
+      "Gin": [
+        {"name": "Nolet's", "price": 12},
+        {"name": "Hendrick's Neptunia", "price": 12},
+        {"name": "Hendrick's", "price": 11},
+        {"name": "Gray Whale", "price": 9},
+        {"name": "Theory 002", "price": 9},
+        {"name": "Russell Henry", "price": 9},
+        {"name": "Empress", "price": 9},
+        {"name": "Malfy Italian Lemon", "price": 8},
+        {"name": "Aviation", "price": 8},
+        {"name": "Few", "price": 8},
+        {"name": "Tanqueray", "price": 8},
+        {"name": "Bombay Sapphire", "price": 8}
+      ],
+      "Vodka": [
+        {"name": "Elit Eighteen", "price": 11},
+        {"name": "Ketel One Grapefruit and Rose", "price": 9},
+        {"name": "Ketel One Cucumber and Mint", "price": 9},
+        {"name": "Absolut Elyx", "price": 9},
+        {"name": "Grey Goose", "price": 9},
+        {"name": "Ketel One", "price": 8},
+        {"name": "Source One Oak Sherry Casks", "price": 8},
+        {"name": "Hera the Dog", "price": 8},
+        {"name": "Tahoe Blue", "price": 8},
+        {"name": "Tito's", "price": 8}
+      ],
+      "Tequila": [
+        {"name": "Casa Dragones Añejo", "price": 15},
+        {"name": "Casa Dragones Blanco", "price": 13},
+        {"name": "El Sativo Añejo", "price": 13},
+        {"name": "El Sativo Reposado", "price": 12},
+        {"name": "Casamigos Reposado", "price": 13},
+        {"name": "Casamigos Blanco", "price": 11},
+        {"name": "Fortaleza Blanco", "price": 11},
+        {"name": "El Sativo Blanco", "price": 10},
+        {"name": "Herradura Reposado", "price": 10},
+        {"name": "Puntagave Blanco", "price": 10},
+        {"name": "Casa Noble Blanco", "price": 9},
+        {"name": "Cazadores Reposado", "price": 8}
+      ],
+      "Mezcal": [
+        {"name": "Sotol Higuera", "price": 10},
+        {"name": "Yuu Baal", "price": 10},
+        {"name": "Tra Kal", "price": 9},
+        {"name": "Madre", "price": 9},
+        {"name": "Burrito", "price": 8},
+        {"name": "400 Conejos", "price": 8}
+      ],
+      "Japanese Whiskey": [
+        {"name": "Suntory Hakushu 12 Year", "price": 35},
+        {"name": "Nikka Single Malt Yoichi", "price": 30},
+        {"name": "Yamazaki 12 Year", "price": 25},
+        {"name": "Nikka From the Barrel", "price": 11},
+        {"name": "Iwai Mars Whisky", "price": 10},
+        {"name": "Nikka Coffey Grain Whisky", "price": 9},
+        {"name": "Suntory Toki", "price": 8}
+        ],
+        "Scotch": [
+        {"name": "Glenlivet Nadurra 16 Year", "price": 35},
+        {"name": "Jura Single Malt 18 Year", "price": 22},
+        {"name": "Baller Single Malt", "price": 20},
+        {"name": "Aultmore Speyside Single Malt 12 Year", "price": 20},
+        {"name": "Bunnahabhain Islay Single Malt 18 Year", "price": 20},
+        {"name": "Springbank 15 Year", "price": 20},
+        {"name": "Lagavulin 8 Year", "price": 15},
+        {"name": "Drambuie 15 Year", "price": 14},
+        {"name": "Highland Park Valkyrie", "price": 12},
+        {"name": "Auchentoshan \"The Bartender's Malt\"", "price": 12},
+        {"name": "Johnnie Walker Green Label 15 Year Blended Malt", "price": 10},
+        {"name": "Glenfiddich Single Malt 12 Year", "price": 9},
+        {"name": "The Glenrothes Select Reserve Speyside Single Malt", "price": 7}
+        ],
+        "Rum": [
+        {"name": "Four Square Empery Single Blended Rum", "price": 20},
+        {"name": "Four Square 2007 Single Blended Rum", "price": 15},
+        {"name": "Opthimus 21 Year Rum", "price": 15},
+        {"name": "Don Q Double Aged Puerto Rican Rum", "price": 14},
+        {"name": "Centenario 20 Year", "price": 12},
+        {"name": "Four Square Zinfandel Cask Blend", "price": 11},
+        {"name": "Plantation Pineapple Rum", "price": 8},
+        {"name": "Clement Single Barrel Caribbean Rum", "price": 8},
+        {"name": "Don Q Oak Barrel Spiced", "price": 8},
+        {"name": "Smith and Cross Jamaica Rum", "price": 7}
+        ],
+        "Bourbon": [
+        {"name": "Michter's Single Barrel 10", "price": 55},
+        {"name": "Elijah Craig", "price": 35},
+        {"name": "Clyde May's 10 Year", "price": 25},
+        {"name": "Wild Turkey Decades", "price": 25},
+        {"name": "Blood Oath Pact No.6", "price": 22},
+        {"name": "Blood Oath Pact No.4", "price": 20},
+        {"name": "Little Book Chapter 03: The Road Home", "price": 20},
+                {"name": "Weller Special Reserve", "price": 15},
+                {"name": "Rebel Yell Single Barrel 10 Year", "price": 14},
+                {"name": "Wild Turkey Kentucky Spirit Single Barrel", "price": 14},
+                {"name": "Four Roses Single Barrel", "price": 12},
+                {"name": "Basil Hayden Toast", "price": 12},
+                {"name": "Clyde May's", "price": 12},
+                {"name": "Wild Turkey Rare Breed", "price": 12},
+                {"name": "Bulleit 10 Year", "price": 11},
+                {"name": "Larceny", "price": 11},
+                {"name": "The Wiseman", "price": 11},
+                {"name": "Broken Barrel Cask Strength", "price": 11},
+                {"name": "Uncle Nearest 1884", "price": 10},
+                {"name": "Baker's 7 Year", "price": 9},
+                {"name": "Frey Ranch", "price": 9},
+                {"name": "Woodford Reserve", "price": 9},
+                {"name": "Broken Barrel California Oak", "price": 9},
+                {"name": "Whistle Pig Piggyback", "price": 9},
+                {"name": "Basil Hayden", "price": 9},
+                {"name": "Howler Head Banana Whiskey", "price": 9},
+                {"name": "Four Roses Small Batch Select", "price": 9},
+                {"name": "Maker's Mark", "price": 8},
+                {"name": "Pendleton", "price": 8}
+              ],
+              "Rye": [
+                {"name": "Peerless Rye", "price": 25},
+                {"name": "Whistle Pig Roadstock", "price": 20},
+                {"name": "Barrel Rye", "price": 15},
+                {"name": "Angel's Envy", "price": 15},
+                {"name": "Basil Hayden Dark Rye", "price": 12},
+                {"name": "Frey Ranch", "price": 12},
+                {"name": "Sazerac", "price": 9},
+                {"name": "Bulleit", "price": 8}
+              ],
+              "Irish Whiskey": [
+                {"name": "Redbreast 12 Year", "price": 15},
+                {"name": "Green Spot", "price": 15},
+                {"name": "Writer's Tears", "price": 12},
+                {"name": "Knappogue 12 Year", "price": 10},
+                {"name": "Jameson", "price": 8}
+              ],
+              "Misc": [
+                {"name": "Crown Royal Noble Collection Wine Barrel Finished", "price": 11},
+                {"name": "Screwball Peanut Butter Whiskey", "price": 9},
+                {"name": "Ballotin Caramel Turtle Whisky", "price": 9},
+                {"name": "Jack Daniel's Sour Mash Whiskey", "price": 7}
+              ]
+            }
+          }
+          
+  
