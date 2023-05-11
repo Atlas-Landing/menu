@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Spirits Menu</title>
-  </head>
-  <body>
-    <h1>Spirits Menu</h1>
-    <div id="spirits-menu"></div>
+<head>
+	<title>Menu</title>
+    <style>
+		body {
+			background-color: #000;
+			color: #f0f0f0;
+			font-size: 1.2em;
+		}
 
-    <script>
-      fetch('https://docs.atlaslanding.bar/menu/spirits.json')
-        .then(response => response.json())
-        .then(data => {
-          const spiritsMenu = document.getElementById('spirits-menu');
-          const spirits = data.spirits;
-          let html = '';
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
 
-          for (const spirit of spirits) {
-            html += `<h2>${spirit.title}</h2>
-            <ul>`;
-            for (const drink of spirit.drinks) {
-              html += `<li>${drink.name} - $${drink.price}</li>`;
-            }
-            html += `</ul>`;
-          }
-
-          spiritsMenu.innerHTML = html;
-        });
-    </script>
-  </body>
+    <div class="container">
+	<h1>Spirits Menu</h1>
+	<div id="menu"></div>
+    </div>
+	<script>
+		fetch('https://docs.atlaslanding.bar/menu/spirits.json')
+		  .then(response => response.json())
+		  .then(data => {
+		  	const menu = document.querySelector("#menu");
+		  	Object.entries(data.spirits).forEach(([category, items]) => {
+		  		const categoryHeader = document.createElement("h2");
+		  		categoryHeader.textContent = category;
+		  		menu.appendChild(categoryHeader);
+		  		const itemList = document.createElement("ul");
+		  		items.forEach(item => {
+		  			const itemElement = document.createElement("li");
+		  			itemElement.textContent = `${item.name} - $${item.price}`;
+		  			itemList.appendChild(itemElement);
+		  		});
+		  		menu.appendChild(itemList);
+		  	});
+		  })
+		  .catch(error => console.error(error));
+	</script>
+</body>
 </html>
